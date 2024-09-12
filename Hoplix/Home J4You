@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulsante Animato</title>
+  <style>
+    .animated-button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border-radius: 5px;
+      background: none;
+      color: #957b00;
+      border: 1px solid #957b00;
+      overflow: hidden;
+      position: relative;
+      transition: background 2s, color 2s, border 2s, font-weight 2s;
+      font-weight: normal;
+    }
+
+    .animated-button:before {
+      content: '';
+      display: block;
+      position: absolute;
+      background: #9900ff;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 2s;
+    }
+
+    .animated-button:hover:before {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    .animated-button:hover {
+      background: #9900ff;
+      color: white;
+      border: 1px solid #9900ff;
+      font-weight: normal;
+    }
+
+    .animated-button:active {
+      background: #9900ff;
+      color: white;
+      border: 1px solid #9900ff;
+    }
+
+    /* Aggiunto stile per centrare l'iframe */
+    .center-iframe {
+      display: block;
+      margin: 0 auto 20px; /* Aggiunto margine inferiore di 20px */
+    }
+  </style>
+</head>
+<body>
+  <p style="text-align:center"><span style="font-size:20px"><span style="color:#c0392b"><strong><span style="background-color:#ffffff">Benvenuti su J4You !</span></strong></span></span></p>
+
+  <p style="text-align:center"><span style="font-size:16px"><span style="color:#c0392b"><span style="background-color:#ffffff">In questo store troverete vari articoli dai capi d&#39;abbigliamento agli accessori fino all&#39; oggettistica e arredo casa.</span></span></span></p>
+
+  <p style="text-align:center"><span style="font-size:16px"><span style="color:#c0392b"><em><span style="background-color:#ffffff">GLI ARTICOLI POSSONO ESSERE PERSONALIZZATI CON TESTI E IMMAGINI VOSTRE PRIVATAMENTE !</span></em></span></span></p>
+
+  <p style="text-align:center"><span style="font-size:16px"><span style="color:#c0392b"><span style="background-color:#ffffff">Per saperne di pi&ugrave; scriveteci nella chat in basso intanto vi auguriamo una buona navigazione e vi benediciamo nel nome di Ges&ugrave; voi che scegliete di portare i suoi messaggi nei vostri vestiari, all&#39;interno delle vostre case e davanti agli occhi di tutti. </span><strong><span style="background-color:#ffffff">SHALOM&nbsp;<img alt="heart" src="https://hoplix.com/js/editor2/plugins/smiley/images/heart.png" style="height:23px; width:23px" title="heart" /></span></strong></span></span></p>
+
+  <iframe class="center-iframe" width="auto" height="300px" src="https://www.youtube.com/embed/CkMcE4kuf5A" title="J4You Shop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  <a class="animated-button" href="https://alan-e-rose-13.voxmail.it/user/register" target="_blank">Registrati alla nostra newsletter!</a>
+</body>
+</html>
+
+<style>
+  /* Aggiungi una classe comune per le immagini animate */
+  .animated-image {
+    transition: transform 0.3s ease-in-out; /* Puoi personalizzare la transizione */
+  }
+
+  /* Aggiungi uno stile hover per animare le immagini al passaggio del mouse */
+  .animated-image:hover {
+    transform: scale(1.1); /* Puoi personalizzare la scala dell'immagine */
+  }
+</style>
+
+<p>
+  <a href="https://j4you.hoplix.shop/collections/arredo-casa">
+    <img alt="" src="https://raw.githubusercontent.com/Alan-Rose/AeR/main/Hoplix/Arredo%20Casa.png" class="animated-image" style="border-style:solid; border-width:2px; height:190px; width:210px" />&nbsp;
+  </a>
+  <a href="https://j4you.hoplix.shop/collections/borse-e-accessori">
+    <img alt="" src="https://raw.githubusercontent.com/Alan-Rose/AeR/main/Hoplix/Borse%20e%20Accessori.png" class="animated-image" style="border-style:solid; border-width:2px; height:190px; width:210px" />&nbsp;
+  </a>
+  <a href="https://j4you.hoplix.shop/collections/cuscini">
+    <img alt="" src="https://raw.githubusercontent.com/Alan-Rose/AeR/main/Hoplix/Cuscini.png" class="animated-image" style="border-style:solid; border-width:2px; height:190px; width:210px" />
+  </a>&nbsp;
+  <a href="https://j4you.hoplix.shop/collections/cover">
+    <img alt="" src="https://raw.githubusercontent.com/Alan-Rose/AeR/main/Hoplix/Cover.png" class="animated-image" style="border-style:solid; border-width:2px; height:190px; width:210px" />&nbsp;
+  </a>
+  <a href="https://j4you.hoplix.shop/collections/abbigliamento">
+    <img alt="" src="https://raw.githubusercontent.com/Alan-Rose/AeR/main/Hoplix/Abbigliamento.png" class="animated-image" style="border-style:solid; border-width:2px; height:190px; width:210px" />
+  </a>
+</p>
+
+<p>
+  <a href="https://j4you.hoplix.shop/collections/tazze">
+    <img alt="" src="https://raw.githubusercontent.com/Alan-Rose/AeR/main/Hoplix/Tazze.png" class="animated-image" style="border-style:solid; border-width:2px; height:190px; width:210px" />&nbsp;
+  </a>
+  <a href="https://j4you.hoplix.shop/collections/eco-friendly">
+    <img alt="" src="https://raw.githubusercontent.com/Alan-Rose/AeR/main/Hoplix/Eco%20Friendly.png" class="animated-image" style="border-style:solid; border-width:2px; height:190px; width:210px" />&nbsp;
+  </a>
+  <a href="https://j4you.hoplix.shop/collections/made-in-italy">
+    <img alt="" src="https://raw.githubusercontent.com/Alan-Rose/AeR/main/Hoplix/Made%20in%20Italy.png" class="animated-image" style="border-style:solid; border-width:2px; height:190px; width:210px" />
+  </a>&nbsp;
+  <a href="https://j4you.hoplix.shop/collections/novita">
+    <img alt="" src="https://raw.githubusercontent.com/Alan-Rose/AeR/main/Hoplix/Novit%C3%A0.png" class="animated-image" style="border-style:solid; border-width:2px; height:190px; width:210px" />
+  </a>
+</p>
+
+<p>
+  <a href="https://j4you.hoplix.shop/tracking">
+    <img alt="" src="https://raw.githubusercontent.com/Alan-Rose/AeR/main/Hoplix/Tracking.PNG" class="animated-image" style="border-style:solid; border-width:2px; height:33px; width:300px" />
+  </a>
+  <a href="https://j4you.hoplix.shop/collections/novita"> </a>
+</p>
