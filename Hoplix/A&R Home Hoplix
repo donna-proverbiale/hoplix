@@ -14,8 +14,8 @@
       cursor: pointer;
       border-radius: 5px;
       background: none;
-      color: #957b00;
-      border: 1px solid #957b00;
+      color: #469bde;
+      border: 1px solid #469bde;
       overflow: hidden;
       position: relative;
       transition: background 2s, color 2s, border 2s, font-weight 2s;
@@ -26,7 +26,7 @@
       content: '';
       display: block;
       position: absolute;
-      background: #9900ff;
+      background: #ffaffe;
       width: 100%;
       height: 100%;
       top: 0;
@@ -43,16 +43,16 @@
     }
 
     .animated-button:hover {
-      background: #9900ff;
+      background: #ffaffe;
       color: white;
-      border: 1px solid #9900ff;
+      border: 1px solid #ffaffe;
       font-weight: normal;
     }
 
     .animated-button:active {
-      background: #9900ff;
+      background: #ffaffe;
       color: white;
-      border: 1px solid #9900ff;
+      border: 1px solid #ffaffe;
     }
 
     /* Aggiunto stile per centrare l'iframe */
@@ -71,7 +71,7 @@
 
 <p style="text-align:center"><span style="font-size:16px"><span style="color:#957b00"><span style="background-color:#ffffff">Per saperne di pi&ugrave; scriveteci nella chat in basso intanto vi auguriamo una buona navigazione sperando di soddisfarvi con i nostri articoli. </span><strong><span style="background-color:#ffffff">A&amp;R</span></strong></span><span style="color:#c0392b"><strong><span style="background-color:#ffffff">&nbsp;<img alt="heart" src="https://hoplix.com/js/editor2/plugins/smiley/images/heart.png" style="height:23px; width:23px" title="heart" /></span></strong></span></span></p>
 
- <a class="animated-button" href="https://alan-e-rose-13.voxmail.it/user/register" target="_blank">Registrati alla nostra newsletter!</a>
+ <a class="animated-button" href="https://donnaproverbiale.voxmail.it/user/register" target="_blank">Registrati alla nostra newsletter!</a>
 </body>
 </html>
 
