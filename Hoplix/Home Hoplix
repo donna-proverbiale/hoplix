@@ -60,6 +60,16 @@
       display: block;
       margin: 0 auto 20px; /* Aggiunto margine inferiore di 20px */
     }
+
+    /* Aggiungi una classe comune per le immagini animate */
+    .animated-image {
+      transition: transform 0.3s ease-in-out; /* Puoi personalizzare la transizione */
+    }
+
+    /* Aggiungi uno stile hover per animare le immagini al passaggio del mouse */
+    .animated-image:hover {
+      transform: scale(1.1); /* Puoi personalizzare la scala dell'immagine */
+    }
   </style>
 </head>
 <body>
@@ -72,25 +82,13 @@
 <p style="text-align:center"><span style="font-size:100%"><span style="color:#469bde"><span style="background-color:#ffffff">Dio vi Benedica Grandemente ✞. </span><strong><span style="background-color:#ffffff">Donna Proverbiale</span></strong></span><span style="color:#c0392b"><strong><span style="background-color:#ffffff">&nbsp;<img alt="heart" src="https://hoplix.com/js/editor2/plugins/smiley/images/heart.png" style="height:23px; width:23px" title="heart" /></span></strong></span></span></p>
 
  <a class="animated-button" href="https://donnaproverbiale.voxmail.it/user/register" target="_blank">Registrati alla newsletter!</a>
-</body>
-</html>
 
-<style>
-  /* Aggiungi una classe comune per le immagini animate */
-  .animated-image {
-    transition: transform 0.3s ease-in-out; /* Puoi personalizzare la transizione */
-  }
+ <!-- Nuovo pulsante aggiunto -->
+ <a class="animated-button" href="https://1360.3cx.cloud/donnaproverbiale" target="_blank">Chatta con me</a>
 
-  /* Aggiungi uno stile hover per animare le immagini al passaggio del mouse */
-  .animated-image:hover {
-    transform: scale(1.1); /* Puoi personalizzare la scala dell'immagine */
-  }
-</style>
-
-<p>
-</p>
-
-<p>
-  <a href="https://donna-proverbiale-store.hoplix.shop/tracking">
+ <!-- Immagine animata -->
+ <a href="https://donna-proverbiale-store.hoplix.shop/tracking">
     <img alt="" src="https://raw.githubusercontent.com/donna-proverbiale/hoplix/main/Hoplix/Tracking.png" class="animated-image" style="border-style:solid; border-width:2px; height:33px; width:300px" />
   </a>
+</body>
+</html>
