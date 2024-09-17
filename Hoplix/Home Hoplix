@@ -86,6 +86,9 @@
  <!-- Nuovo pulsante aggiunto -->
  <a class="animated-button" href="https://1360.3cx.cloud/donnaproverbiale" target="_blank">Chatta con me</a>
 
+<!-- Nuovo pulsante aggiunto -->
+ <a class="animated-button" href="https://sites.google.com/view/donnaproverbiale" target="_blank">Visita il mio blog</a>
+
  <!-- Immagine animata -->
  <a href="https://donna-proverbiale-store.hoplix.shop/tracking">
     <img alt="" src="https://raw.githubusercontent.com/donna-proverbiale/hoplix/main/Hoplix/Tracking.png" class="animated-image" style="border-style:solid; border-width:2px; height:33px; width:300px" />
