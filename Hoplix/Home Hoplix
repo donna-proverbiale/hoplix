@@ -14,8 +14,8 @@
       cursor: pointer;
       border-radius: 5px;
       background: none;
-      color: #469bde;
-      border: 1px solid #469bde;
+      color: #896efb;
+      border: 1px solid #896efb;
       overflow: hidden;
       position: relative;
       transition: background 2s, color 2s, border 2s, font-weight 2s;
